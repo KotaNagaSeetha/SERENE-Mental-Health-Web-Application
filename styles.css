@@ -1,0 +1,153 @@
+/* General Styles */
+body, html {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+h1, h2 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff !important;
+}
+
+/* Hero Section */
+#home {
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Chat Section */
+#chat .chatbox {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+#chat .messages {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.message {
+    max-width: 80%;
+    margin: 5px 0;
+    padding: 8px 12px;
+    border-radius: 12px;
+}
+
+.user-message {
+    align-self: flex-end;
+    background-color: #d1e7ff;
+    color: #333;
+}
+
+.bot-message {
+    align-self: flex-start;
+}
+
+/* Mood History Section */
+#mood-history {
+    color: #333;
+}
+
+#mood-history canvas {
+    max-width: 400px;
+    max-height: 300px;
+}
+
+/* Therapist Suggestions Section */
+.therapist-card {
+    margin-bottom: 1.5rem;
+}
+
+#therapist-suggestions .btn {
+    color: #ffffff;
+    background-color: #6aabd2;
+}
+
+/* FAQ Section */
+#faq .accordion-item {
+    background-color: #ffcc5c;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+#faq .accordion-header {
+    font-size: 1rem;
+}
+
+#faq .accordion-button {
+    font-size: 1rem;
+    color: #333;
+}
+
+#faq .accordion-body {
+    background-color: #fff5e1;
+    border-top: 1px solid #ddd;
+}
+
+/* Login Section */
+#login form {
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+#login .social-icons {
+    font-size: 1.5rem;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+#login .btn {
+    width: 100%;
+    background-color: #6aabd2;
+}
+
+/* Sign Up Section */
+#signup form {
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+#signup .btn {
+    width: 100%;
+    background-color: #ff9f80;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
